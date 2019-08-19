@@ -1,0 +1,10 @@
+{
+  "Good morning, {name}": {
+    "origin": [
+      [
+        "src/App.tsx",
+        7
+      ]
+    ]
+  }
+}
