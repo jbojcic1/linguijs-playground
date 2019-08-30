@@ -13,6 +13,22 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#: src/App.tsx:7
-msgid "Good morning, {name}"
-msgstr "Good morning, {name}"
+#: src/App.tsx:20
+msgid "Good morning, {0}"
+msgstr "Good morning, {0}"
+
+#: src/App.tsx:21
+msgid "Good night, {0}"
+msgstr "Good night, {0}"
+
+#: src/App.tsx:23
+msgid "Hello, {0}"
+msgstr "Hello, {0}"
+
+#: src/App.tsx:6
+msgid "Today is {0}"
+msgstr "Today is {0}"
+
+#: src/App.tsx:6
+msgid "today,date"
+msgstr "today,date"

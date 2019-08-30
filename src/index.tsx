@@ -1,20 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { i18n, language } from './i18n';
 import { I18nProvider } from '@lingui/react';
-import enCatalog from './locales/en/messages';
-import hrCatalog from './locales/hr/messages';
-import { setupI18n } from '@lingui/core';
-
-const language = 'hr';
-const catalogs = {
-    en: enCatalog,
-    hr: hrCatalog
-};
-
-export const i18n = setupI18n({ language, catalogs });
+import App from './App';
 
 ReactDOM.render(
     <I18nProvider i18n={i18n} language={language}>

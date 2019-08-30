@@ -1,9 +1,41 @@
 {
-  "Good morning, {name}": {
+  "Today is {0}": {
     "origin": [
       [
         "src/App.tsx",
-        7
+        6
+      ]
+    ]
+  },
+  "today,date": {
+    "origin": [
+      [
+        "src/App.tsx",
+        6
+      ]
+    ]
+  },
+  "Good morning, {0}": {
+    "origin": [
+      [
+        "src/App.tsx",
+        20
+      ]
+    ]
+  },
+  "Good night, {0}": {
+    "origin": [
+      [
+        "src/App.tsx",
+        21
+      ]
+    ]
+  },
+  "Hello, {0}": {
+    "origin": [
+      [
+        "src/App.tsx",
+        23
       ]
     ]
   }
